@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+section{
+    display: grid;
+    gap: 20px;
+}
+body{
+    background-color: rgba(250, 253, 255, 0.548);
+}
+.do{
+    background-color: whitesmoke;
+    margin: 40px;
+    width: 75vw;
+    height: 250px;
+    box-shadow: 10px 10px 5px rgba(199, 203, 206, 0.548);
+}
+header{
+    margin: 20px 0 20px 0;
+}
+header h1{
+    text-align: center;
+}
+header p{
+    margin-left: 40px;
+}
+div h2, div p{
+    margin: 30px;
+}
+div p{
+    margin-top: 10px;
+}
+div h2{
+    margin-bottom: 0;
+}
+img{
+    margin-left: 70%;
+}
